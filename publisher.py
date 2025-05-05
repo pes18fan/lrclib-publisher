@@ -113,8 +113,8 @@ ttk.Label(mainframe, text="Synced lyrics:").grid(column=1, row=5, sticky=W)
 synced_lyrics_entry = tk.Text(mainframe, height=10, width=10)
 synced_lyrics_entry.grid(column=2, row=5, sticky=(W, E))
 
-# Unsynced lyrics field
-ttk.Label(mainframe, text="Unsynced lyrics:").grid(column=1, row=6, sticky=W)
+# Plain lyrics field
+ttk.Label(mainframe, text="Plain lyrics:").grid(column=1, row=6, sticky=W)
 plain_lyrics_entry = tk.Text(mainframe, height=10, width=20)
 plain_lyrics_entry.grid(column=2, row=6, sticky=(W, E))
 
